@@ -27,6 +27,8 @@
    \newtheorem{izrek}{Izrek}
 }
 
+\newcommand{\m}{\mathcal{M}_2}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Prvi sklop nalog
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -180,7 +182,7 @@ in zato kvadrat ni normalen.
       \label{eq:mc}
       % Okolje `equation` je že prikazni matematični način,
       % zato tu izraz vpišite brez `\[` in `\]`.
-      \mathcal{M}_2(n) = \frac 1 2 n (n^2 + 1).
+      \m(n) = \frac 1 2 n (n^2 + 1).
    \end{equation}
 \end{izrek}
 
@@ -189,13 +191,13 @@ in zato kvadrat ni normalen.
    števil (glej \eqref{eq:numbers} na strani \pageref{eq:numbers}) enaka
    \(1 + 2 + 3 + ... + n^2 = \sum_{k=1}^{n^2}k = \frac 1 2 n^2(n^2+1)\). Ker imamo
    v kvadratu \(n\) vrstic z enako vsoto, je vsota števil v eni vrstici
-   enaka številu \(M_2(n)\).
+   enaka številu \(\m(n)\).
 \end{proof}
 
 Preprost račun pokaže, da je konstanti \eqref{eq:mc} analogna konstanta
-\(M_2(n;A,D)\) za magični kvadrat, v katerem so nameščena števila
+\(\m(n;A,D)\) za magični kvadrat, v katerem so nameščena števila
 \(A\), \(A+D\), \(A+2D\), \ldots, \(A+(n^2-1)D\), enaka
-\[\mathcal{M}_2(n; A, D) = \frac 1 2 n \big(2 A + D(n^2 - 1)\big).\]
+\[\m(n; A, D) = \frac 1 2 n \big(2 A + D(n^2 - 1)\big).\]
 
 \begin{definicija}
       Če vsako od števil v normalnem magičnem kvadratu reda \(n\) odštejemo
